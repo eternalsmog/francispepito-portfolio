@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+
+<body>
+    <header class="header" id="header">
+        <a href="index.html" class="logo"><span class="main-icon"></span><span>Francis Martine T. Pepito</span></a>
+        <div class="navnav">
+            <div class="navbar">
+                <a href="index.html">Home</a>          
+                <a href="education.html">Education</a>
+                <a href="projects.html">Projects</a>
+            </div>
+        </div>
+        <div class="main">
+            <a href="contact.html" class="user main-items active"><i class="fas fa-envelope cm-icon"></i>Contact Me</a>
+            <div class="main-items menu-icon-container" id="menu-icon-js">
+                <div class="bx bx-menu" id="menu-icon"></div>
+            </div>
+        </div>
+    </header>
+
+    <div class="page">
+        <main class="contact-main">
+            <div class="contact-full">
+                <div class="contact-section">
+                    <div class="cs-top mobile-show">
+                        <h1>Reach Me</h1>
+                        <div class="border-line"></div>
+                    </div>
+                    <div class="cs-item email">
+                        <div class="icon"><i class="fas fa-envelope"></i></div>
+                        <div class="context">
+                            <div class="placeHolder">E-mail</div>
+                            <div class="info"><a href="mailto:francismartinepepito92@gmail.com">francismartinepepito92@gmail.com</a></div>
+                        </div>
+                    </div>
+                    <div class="cs-item number">
+                        <div class="icon"><i class="fas fa-phone"></i></div>
+                        <div class="context">
+                            <div class="placeHolder">Phone</div>
+                            <div class="info"><a href="tel:+639552482005">+63 955 248 2005</a></div>
+                        </div>
+                    </div>
+                    <div class="cs-item address">
+                        <div class="icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <div class="context">
+                            <div class="placeHolder">Address</div>
+                            <div class="info"><a href="https://www.google.com/maps?q=Tagum,+Davao+Region,+Philippines" target="_blank">Tagum, Davao Region, Philippines</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    
+        </main>
+        <footer class="footer">
+            <div class="left">
+                &copy; 2024 • Francis Pepito • All Rights Reserved
+            </div>
+            <div class="right">
+                <div class="social"><a href="https://www.facebook.com/eternalsmog" target="_blank"><i class="fa-brands fa-facebook"></i></a></div>
+                <div class="social"><a href="https://github.com/eternalsmog" target="_blank"><i class="fa-brands fa-github"></i></a></div>
+                <div class="social"><a href="mailto:francismartinepepito92@gmail.com"><i class="fas fa-envelope"></i></a></div>
+            </div>
+        </footer>
+    </div>
+
+    <div class="nav-touch-close" id="nav-tc-js"></div>
+
+    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("Email Js API Key (keep it in .env file or seperately)");
+        })();
+    </script>
+
+</body>
+</html>
